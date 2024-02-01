@@ -10,7 +10,7 @@ TPZ Doorlocks : https://github.com/TPZ-CORE/tpz_doorlocks
 
 ## General Information
 
-37 Houses by default.
+You can find 37 Houses by default (More will be added in future updates).
 
 All objects such as furnitures, are loaded client side (not synced), with a rendering system to create or delete this object based on the player distance - property distance. 
 
