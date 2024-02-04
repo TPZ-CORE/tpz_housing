@@ -1116,6 +1116,12 @@ Furnitures.Categories = {
 			},
 
 			{ 
+				label              = "Shelf",
+				cost               = { account = 0, cost = 1 },
+				hash               = `p_shelf09x`, 
+			},
+
+			{ 
 				label              = "Christmas Tree",
 				cost               = { account = 0, cost = 1 },
 				hash               = `mp006_p_xmastree01x`, 
