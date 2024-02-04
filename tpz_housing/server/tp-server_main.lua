@@ -867,7 +867,7 @@ end)
 --[[ Threads  ]]--
 -----------------------------------------------------------
 
--- Saving (Updating) Crafing Locations Data before server restart.
+-- Saving (Updating) Property Locations Data before server restart.
 Citizen.CreateThread(function()
 	while true do
 		Wait(60000)
