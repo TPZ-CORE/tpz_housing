@@ -518,7 +518,7 @@ Citizen.CreateThread(function()
                         end
                     
                      elseif prompt.type == 'WARDROBE' then
-                        -- todo
+                        TriggerEvent("tpz_clothing:openWardrobe")
                      end
 
                      Wait(1500)
