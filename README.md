@@ -16,12 +16,6 @@
 
 ## Description
 
-||@everyone||
-
-*We provide you the most advanced property housing script, the most efficient and clean which supports huge playerbase, with full functional synced updates without issues and many features for your server that others don't.*
-
-`𝙳𝙴𝙿𝙴𝙽𝙳𝙴𝙽𝙲𝙸𝙴𝚂`:
-
 - We provide `36` house properties by default (with image backgrounds, door registrations and menu locations that have been already setup - plug & play).
 
 - Set in the configuration the maximum owned properties by player and the maximum keyholders of a property (we don’t want someone to share a house to the whole server).
