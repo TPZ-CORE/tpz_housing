@@ -221,14 +221,6 @@ Config.Properties = {
 
         -- The max range for the property owners to be able to set Wardrobes, Storage and House Action locations.
         actionsRange = 20.0,
-
-        -- If players can use lockpicking to unlock the property doors.
-        -- (!) If @hasTeleportationEntrance is true, lockpicking won't be functional since it works
-        -- only for door locks.
-        canBreakIn = true,
-
-        -- The house image which will be displayed when someone goes to the main entrance for checking out if its available for sell.
-        backgroundImageUrl = 'property_1.png',
     },
 
     ['2'] = { -- <- THE NAME FOR THE PROPERTY TO BE SAVED AND LOADED FROM PROPERTIES DATABASE (INCLUDES INVENTORY CONTAINERS). DO NOT MODIFY IT AFTER CREATING A NEW HOUSE FOR NO REASON.
@@ -281,14 +273,6 @@ Config.Properties = {
 
         -- The max range for the property owners to be able to set Wardrobes, Storage and House Action locations.
         actionsRange = 10.0,
-
-        -- If players can use lockpicking to unlock the property doors.
-        -- (!) If @hasTeleportationEntrance is true, lockpicking won't be functional since it works
-        -- only for door locks.
-        canBreakIn = false,
-
-        -- The house image which will be displayed when someone goes to the main entrance for checking out if its available for sell.
-        backgroundImageUrl = 'property_2.png',
     },
 
     ['3'] = { -- <- THE NAME FOR THE PROPERTY TO BE SAVED AND LOADED FROM PROPERTIES DATABASE (INCLUDES INVENTORY CONTAINERS). DO NOT MODIFY IT AFTER CREATING A NEW HOUSE FOR NO REASON.
@@ -366,14 +350,6 @@ Config.Properties = {
 
         -- The max range for the property owners to be able to set Wardrobes, Storage and House Action locations.
         actionsRange = 20.0,
-
-        -- If players can use lockpicking to unlock the property doors.
-        -- (!) If @hasTeleportationEntrance is true, lockpicking won't be functional since it works
-        -- only for door locks.
-        canBreakIn = true,
-
-        -- The house image which will be displayed when someone goes to the main entrance for checking out if its available for sell.
-        backgroundImageUrl = 'property_3.png',
     },
 
     ['4'] = { -- <- THE NAME FOR THE PROPERTY TO BE SAVED AND LOADED FROM PROPERTIES DATABASE (INCLUDES INVENTORY CONTAINERS). DO NOT MODIFY IT AFTER CREATING A NEW HOUSE FOR NO REASON.
@@ -439,14 +415,6 @@ Config.Properties = {
 
         -- The max range for the property owners to be able to set Wardrobes, Storage and House Action locations.
         actionsRange = 20.0,
-
-        -- If players can use lockpicking to unlock the property doors.
-        -- (!) If @hasTeleportationEntrance is true, lockpicking won't be functional since it works
-        -- only for door locks.
-        canBreakIn = true,
-
-        -- The house image which will be displayed when someone goes to the main entrance for checking out if its available for sell.
-        backgroundImageUrl = 'property_4.png',
     },
 
     ['5'] = { -- <- THE NAME FOR THE PROPERTY TO BE SAVED AND LOADED FROM PROPERTIES DATABASE (INCLUDES INVENTORY CONTAINERS). DO NOT MODIFY IT AFTER CREATING A NEW HOUSE FOR NO REASON.
@@ -512,14 +480,6 @@ Config.Properties = {
 
         -- The max range for the property owners to be able to set Wardrobes, Storage and House Action locations.
         actionsRange = 20.0,
-
-        -- If players can use lockpicking to unlock the property doors.
-        -- (!) If @hasTeleportationEntrance is true, lockpicking won't be functional since it works
-        -- only for door locks.
-        canBreakIn = true,
-
-        -- The house image which will be displayed when someone goes to the main entrance for checking out if its available for sell.
-        backgroundImageUrl = 'property_5.png',
     },
 
     ['6'] = { -- <- THE NAME FOR THE PROPERTY TO BE SAVED AND LOADED FROM PROPERTIES DATABASE (INCLUDES INVENTORY CONTAINERS). DO NOT MODIFY IT AFTER CREATING A NEW HOUSE FOR NO REASON.
@@ -585,14 +545,6 @@ Config.Properties = {
 
         -- The max range for the property owners to be able to set Wardrobes, Storage and House Action locations.
         actionsRange = 20.0,
-
-        -- If players can use lockpicking to unlock the property doors.
-        -- (!) If @hasTeleportationEntrance is true, lockpicking won't be functional since it works
-        -- only for door locks.
-        canBreakIn = true,
-
-        -- The house image which will be displayed when someone goes to the main entrance for checking out if its available for sell.
-        backgroundImageUrl = 'property_6.png',
     },
 
     ['7'] = { -- <- THE NAME FOR THE PROPERTY TO BE SAVED AND LOADED FROM PROPERTIES DATABASE (INCLUDES INVENTORY CONTAINERS). DO NOT MODIFY IT AFTER CREATING A NEW HOUSE FOR NO REASON.
@@ -658,14 +610,6 @@ Config.Properties = {
 
         -- The max range for the property owners to be able to set Wardrobes, Storage and House Action locations.
         actionsRange = 10.0,
-
-        -- If players can use lockpicking to unlock the property doors.
-        -- (!) If @hasTeleportationEntrance is true, lockpicking won't be functional since it works
-        -- only for door locks.
-        canBreakIn = true,
-
-        -- The house image which will be displayed when someone goes to the main entrance for checking out if its available for sell.
-        backgroundImageUrl = 'property_7.png',
     },
 
     ['8'] = { -- <- THE NAME FOR THE PROPERTY TO BE SAVED AND LOADED FROM PROPERTIES DATABASE (INCLUDES INVENTORY CONTAINERS). DO NOT MODIFY IT AFTER CREATING A NEW HOUSE FOR NO REASON.
@@ -731,15 +675,6 @@ Config.Properties = {
 
         -- The max range for the property owners to be able to set Wardrobes, Storage and House Action locations.
         actionsRange = 10.0,
-
-
-        -- If players can use lockpicking to unlock the property doors.
-        -- (!) If @hasTeleportationEntrance is true, lockpicking won't be functional since it works
-        -- only for door locks.
-        canBreakIn = true,
-
-        -- The house image which will be displayed when someone goes to the main entrance for checking out if its available for sell.
-        backgroundImageUrl = 'property_8.png',
     },
 
     ['9'] = { -- <- THE NAME FOR THE PROPERTY TO BE SAVED AND LOADED FROM PROPERTIES DATABASE (INCLUDES INVENTORY CONTAINERS). DO NOT MODIFY IT AFTER CREATING A NEW HOUSE FOR NO REASON.
@@ -805,14 +740,6 @@ Config.Properties = {
 
         -- The max range for the property owners to be able to set Wardrobes, Storage and House Action locations.
         actionsRange = 10.0,
-
-        -- If players can use lockpicking to unlock the property doors.
-        -- (!) If @hasTeleportationEntrance is true, lockpicking won't be functional since it works
-        -- only for door locks.
-        canBreakIn = true,
-
-        -- The house image which will be displayed when someone goes to the main entrance for checking out if its available for sell.
-        backgroundImageUrl = 'property_9.png',
     },
 
     ['10'] = { -- <- THE NAME FOR THE PROPERTY TO BE SAVED AND LOADED FROM PROPERTIES DATABASE (INCLUDES INVENTORY CONTAINERS). DO NOT MODIFY IT AFTER CREATING A NEW HOUSE FOR NO REASON.
@@ -889,14 +816,6 @@ Config.Properties = {
 
         -- The max range for the property owners to be able to set Wardrobes, Storage and House Action locations.
         actionsRange = 15.0,
-
-        -- If players can use lockpicking to unlock the property doors.
-        -- (!) If @hasTeleportationEntrance is true, lockpicking won't be functional since it works
-        -- only for door locks.
-        canBreakIn = true,
-
-        -- The house image which will be displayed when someone goes to the main entrance for checking out if its available for sell.
-        backgroundImageUrl = 'property_10.png',
     },
 
     ['11'] = { -- <- THE NAME FOR THE PROPERTY TO BE SAVED AND LOADED FROM PROPERTIES DATABASE (INCLUDES INVENTORY CONTAINERS). DO NOT MODIFY IT AFTER CREATING A NEW HOUSE FOR NO REASON.
@@ -974,13 +893,6 @@ Config.Properties = {
         -- The max range for the property owners to be able to set Wardrobes, Storage and House Action locations.
         actionsRange = 10.0,
 
-        -- If players can use lockpicking to unlock the property doors.
-        -- (!) If @hasTeleportationEntrance is true, lockpicking won't be functional since it works
-        -- only for door locks.
-        canBreakIn = true,
-
-        -- The house image which will be displayed when someone goes to the main entrance for checking out if its available for sell.
-        backgroundImageUrl = 'property_11.png',
     },
 
     ['12'] = { -- <- THE NAME FOR THE PROPERTY TO BE SAVED AND LOADED FROM PROPERTIES DATABASE (INCLUDES INVENTORY CONTAINERS). DO NOT MODIFY IT AFTER CREATING A NEW HOUSE FOR NO REASON.
@@ -1082,13 +994,6 @@ Config.Properties = {
         -- The max range for the property owners to be able to set Wardrobes, Storage and House Action locations.
         actionsRange = 20.0,
 
-        -- If players can use lockpicking to unlock the property doors.
-        -- (!) If @hasTeleportationEntrance is true, lockpicking won't be functional since it works
-        -- only for door locks.
-        canBreakIn = true,
-
-        -- The house image which will be displayed when someone goes to the main entrance for checking out if its available for sell.
-        backgroundImageUrl = 'property_12.png',
     },
 
     
@@ -1156,13 +1061,6 @@ Config.Properties = {
         -- The max range for the property owners to be able to set Wardrobes, Storage and House Action locations.
         actionsRange = 15.0,
 
-        -- If players can use lockpicking to unlock the property doors.
-        -- (!) If @hasTeleportationEntrance is true, lockpicking won't be functional since it works
-        -- only for door locks.
-        canBreakIn = true,
-
-        -- The house image which will be displayed when someone goes to the main entrance for checking out if its available for sell.
-        backgroundImageUrl = 'property_13.png',
     },
 
     ['14'] = { -- <- THE NAME FOR THE PROPERTY TO BE SAVED AND LOADED FROM PROPERTIES DATABASE (INCLUDES INVENTORY CONTAINERS). DO NOT MODIFY IT AFTER CREATING A NEW HOUSE FOR NO REASON.
@@ -1241,14 +1139,6 @@ Config.Properties = {
 
         -- The max range for the property owners to be able to set Wardrobes, Storage and House Action locations.
         actionsRange = 15.0,
-
-        -- If players can use lockpicking to unlock the property doors.
-        -- (!) If @hasTeleportationEntrance is true, lockpicking won't be functional since it works
-        -- only for door locks.
-        canBreakIn = true,
-
-        -- The house image which will be displayed when someone goes to the main entrance for checking out if its available for sell.
-        backgroundImageUrl = 'property_14.png',
     },
 
     ['15'] = { -- <- THE NAME FOR THE PROPERTY TO BE SAVED AND LOADED FROM PROPERTIES DATABASE (INCLUDES INVENTORY CONTAINERS). DO NOT MODIFY IT AFTER CREATING A NEW HOUSE FOR NO REASON.
@@ -1327,14 +1217,6 @@ Config.Properties = {
 
         -- The max range for the property owners to be able to set Wardrobes, Storage and House Action locations.
         actionsRange = 15.0,
-
-        -- If players can use lockpicking to unlock the property doors.
-        -- (!) If @hasTeleportationEntrance is true, lockpicking won't be functional since it works
-        -- only for door locks.
-        canBreakIn = true,
-
-        -- The house image which will be displayed when someone goes to the main entrance for checking out if its available for sell.
-        backgroundImageUrl = 'property_15.png',
     },
 
     ['16'] = { -- <- THE NAME FOR THE PROPERTY TO BE SAVED AND LOADED FROM PROPERTIES DATABASE (INCLUDES INVENTORY CONTAINERS). DO NOT MODIFY IT AFTER CREATING A NEW HOUSE FOR NO REASON.
@@ -1413,14 +1295,6 @@ Config.Properties = {
 
         -- The max range for the property owners to be able to set Wardrobes, Storage and House Action locations.
         actionsRange = 15.0,
-
-        -- If players can use lockpicking to unlock the property doors.
-        -- (!) If @hasTeleportationEntrance is true, lockpicking won't be functional since it works
-        -- only for door locks.
-        canBreakIn = true,
-
-        -- The house image which will be displayed when someone goes to the main entrance for checking out if its available for sell.
-        backgroundImageUrl = 'property_16.png',
     },
 
     ['17'] = { -- <- THE NAME FOR THE PROPERTY TO BE SAVED AND LOADED FROM PROPERTIES DATABASE (INCLUDES INVENTORY CONTAINERS). DO NOT MODIFY IT AFTER CREATING A NEW HOUSE FOR NO REASON.
@@ -1546,14 +1420,6 @@ Config.Properties = {
 
         -- The max range for the property owners to be able to set Wardrobes, Storage and House Action locations.
         actionsRange = 20.0,
-
-        -- If players can use lockpicking to unlock the property doors.
-        -- (!) If @hasTeleportationEntrance is true, lockpicking won't be functional since it works
-        -- only for door locks.
-        canBreakIn = true,
-
-        -- The house image which will be displayed when someone goes to the main entrance for checking out if its available for sell.
-        backgroundImageUrl = 'property_17.png',
     },
 
     ['18'] = { -- <- THE NAME FOR THE PROPERTY TO BE SAVED AND LOADED FROM PROPERTIES DATABASE (INCLUDES INVENTORY CONTAINERS). DO NOT MODIFY IT AFTER CREATING A NEW HOUSE FOR NO REASON.
@@ -1632,14 +1498,6 @@ Config.Properties = {
 
         -- The max range for the property owners to be able to set Wardrobes, Storage and House Action locations.
         actionsRange = 7.0,
-
-        -- If players can use lockpicking to unlock the property doors.
-        -- (!) If @hasTeleportationEntrance is true, lockpicking won't be functional since it works
-        -- only for door locks.
-        canBreakIn = true,
-
-        -- The house image which will be displayed when someone goes to the main entrance for checking out if its available for sell.
-        backgroundImageUrl = 'property_18.png',
     },
 
     ['19'] = { -- <- THE NAME FOR THE PROPERTY TO BE SAVED AND LOADED FROM PROPERTIES DATABASE (INCLUDES INVENTORY CONTAINERS). DO NOT MODIFY IT AFTER CREATING A NEW HOUSE FOR NO REASON.
@@ -1743,15 +1601,6 @@ Config.Properties = {
 
         -- The max range for the property owners to be able to set Wardrobes, Storage and House Action locations.
         actionsRange = 15.0,
-
-
-        -- If players can use lockpicking to unlock the property doors.
-        -- (!) If @hasTeleportationEntrance is true, lockpicking won't be functional since it works
-        -- only for door locks.
-        canBreakIn = true,
-
-        -- The house image which will be displayed when someone goes to the main entrance for checking out if its available for sell.
-        backgroundImageUrl = 'property_19.png',
     },
 
     ['20'] = { -- <- THE NAME FOR THE PROPERTY TO BE SAVED AND LOADED FROM PROPERTIES DATABASE (INCLUDES INVENTORY CONTAINERS). DO NOT MODIFY IT AFTER CREATING A NEW HOUSE FOR NO REASON.
@@ -1830,14 +1679,6 @@ Config.Properties = {
 
         -- The max range for the property owners to be able to set Wardrobes, Storage and House Action locations.
         actionsRange = 10.0,
-
-        -- If players can use lockpicking to unlock the property doors.
-        -- (!) If @hasTeleportationEntrance is true, lockpicking won't be functional since it works
-        -- only for door locks.
-        canBreakIn = true,
-
-        -- The house image which will be displayed when someone goes to the main entrance for checking out if its available for sell.
-        backgroundImageUrl = 'property_20.png',
     },
 
     ['21'] = { -- <- THE NAME FOR THE PROPERTY TO BE SAVED AND LOADED FROM PROPERTIES DATABASE (INCLUDES INVENTORY CONTAINERS). DO NOT MODIFY IT AFTER CREATING A NEW HOUSE FOR NO REASON.
@@ -1917,14 +1758,6 @@ Config.Properties = {
         -- The max range for the property owners to be able to set Wardrobes, Storage and House Action locations.
         actionsRange = 12.0,
 
-
-        -- If players can use lockpicking to unlock the property doors.
-        -- (!) If @hasTeleportationEntrance is true, lockpicking won't be functional since it works
-        -- only for door locks.
-        canBreakIn = true,
-
-        -- The house image which will be displayed when someone goes to the main entrance for checking out if its available for sell.
-        backgroundImageUrl = 'property_21.png',
     },
 
     ['22'] = { -- <- THE NAME FOR THE PROPERTY TO BE SAVED AND LOADED FROM PROPERTIES DATABASE (INCLUDES INVENTORY CONTAINERS). DO NOT MODIFY IT AFTER CREATING A NEW HOUSE FOR NO REASON.
@@ -1991,14 +1824,6 @@ Config.Properties = {
         -- The max range for the property owners to be able to set Wardrobes, Storage and House Action locations.
         actionsRange = 10.0,
 
-
-        -- If players can use lockpicking to unlock the property doors.
-        -- (!) If @hasTeleportationEntrance is true, lockpicking won't be functional since it works
-        -- only for door locks.
-        canBreakIn = true,
-
-        -- The house image which will be displayed when someone goes to the main entrance for checking out if its available for sell.
-        backgroundImageUrl = 'property_22.png',
     },
 
     ['23'] = { -- <- THE NAME FOR THE PROPERTY TO BE SAVED AND LOADED FROM PROPERTIES DATABASE (INCLUDES INVENTORY CONTAINERS). DO NOT MODIFY IT AFTER CREATING A NEW HOUSE FOR NO REASON.
@@ -2076,14 +1901,6 @@ Config.Properties = {
 
         -- The max range for the property owners to be able to set Wardrobes, Storage and House Action locations.
         actionsRange = 15.0,
-
-        -- If players can use lockpicking to unlock the property doors.
-        -- (!) If @hasTeleportationEntrance is true, lockpicking won't be functional since it works
-        -- only for door locks.
-        canBreakIn = true,
-
-        -- The house image which will be displayed when someone goes to the main entrance for checking out if its available for sell.
-        backgroundImageUrl = 'property_23.png',
     },
 
     ['24'] = { -- <- THE NAME FOR THE PROPERTY TO BE SAVED AND LOADED FROM PROPERTIES DATABASE (INCLUDES INVENTORY CONTAINERS). DO NOT MODIFY IT AFTER CREATING A NEW HOUSE FOR NO REASON.
@@ -2149,14 +1966,6 @@ Config.Properties = {
 
         -- The max range for the property owners to be able to set Wardrobes, Storage and House Action locations.
         actionsRange = 15.0,
-
-        -- If players can use lockpicking to unlock the property doors.
-        -- (!) If @hasTeleportationEntrance is true, lockpicking won't be functional since it works
-        -- only for door locks.
-        canBreakIn = true,
-
-        -- The house image which will be displayed when someone goes to the main entrance for checking out if its available for sell.
-        backgroundImageUrl = 'property_24.png',
     },
 
     ['25'] = { -- <- THE NAME FOR THE PROPERTY TO BE SAVED AND LOADED FROM PROPERTIES DATABASE (INCLUDES INVENTORY CONTAINERS). DO NOT MODIFY IT AFTER CREATING A NEW HOUSE FOR NO REASON.
@@ -2234,14 +2043,6 @@ Config.Properties = {
 
         -- The max range for the property owners to be able to set Wardrobes, Storage and House Action locations.
         actionsRange = 15.0,
-
-        -- If players can use lockpicking to unlock the property doors.
-        -- (!) If @hasTeleportationEntrance is true, lockpicking won't be functional since it works
-        -- only for door locks.
-        canBreakIn = true,
-
-        -- The house image which will be displayed when someone goes to the main entrance for checking out if its available for sell.
-        backgroundImageUrl = 'property_25.png',
     },
     
     ['26'] = { -- <- THE NAME FOR THE PROPERTY TO BE SAVED AND LOADED FROM PROPERTIES DATABASE (INCLUDES INVENTORY CONTAINERS). DO NOT MODIFY IT AFTER CREATING A NEW HOUSE FOR NO REASON.
@@ -2319,13 +2120,6 @@ Config.Properties = {
         -- The max range for the property owners to be able to set Wardrobes, Storage and House Action locations.
         actionsRange = 15.0,
 
-        -- If players can use lockpicking to unlock the property doors.
-        -- (!) If @hasTeleportationEntrance is true, lockpicking won't be functional since it works
-        -- only for door locks.
-        canBreakIn = true,
-
-        -- The house image which will be displayed when someone goes to the main entrance for checking out if its available for sell.
-        backgroundImageUrl = 'property_26.png',
     },
 
     ['27'] = { -- <- THE NAME FOR THE PROPERTY TO BE SAVED AND LOADED FROM PROPERTIES DATABASE (INCLUDES INVENTORY CONTAINERS). DO NOT MODIFY IT AFTER CREATING A NEW HOUSE FOR NO REASON.
@@ -2403,13 +2197,6 @@ Config.Properties = {
         -- The max range for the property owners to be able to set Wardrobes, Storage and House Action locations.
         actionsRange = 15.0,
 
-        -- If players can use lockpicking to unlock the property doors.
-        -- (!) If @hasTeleportationEntrance is true, lockpicking won't be functional since it works
-        -- only for door locks.
-        canBreakIn = true,
-
-        -- The house image which will be displayed when someone goes to the main entrance for checking out if its available for sell.
-        backgroundImageUrl = 'property_27.png',
     },
 
     
@@ -2488,13 +2275,6 @@ Config.Properties = {
         -- The max range for the property owners to be able to set Wardrobes, Storage and House Action locations.
         actionsRange = 12.0,
 
-        -- If players can use lockpicking to unlock the property doors.
-        -- (!) If @hasTeleportationEntrance is true, lockpicking won't be functional since it works
-        -- only for door locks.
-        canBreakIn = true,
-
-        -- The house image which will be displayed when someone goes to the main entrance for checking out if its available for sell.
-        backgroundImageUrl = 'property_28.png',
     },
 
     ['29'] = { -- <- THE NAME FOR THE PROPERTY TO BE SAVED AND LOADED FROM PROPERTIES DATABASE (INCLUDES INVENTORY CONTAINERS). DO NOT MODIFY IT AFTER CREATING A NEW HOUSE FOR NO REASON.
@@ -2560,15 +2340,6 @@ Config.Properties = {
 
         -- The max range for the property owners to be able to set Wardrobes, Storage and House Action locations.
         actionsRange = 12.0,
-
-
-        -- If players can use lockpicking to unlock the property doors.
-        -- (!) If @hasTeleportationEntrance is true, lockpicking won't be functional since it works
-        -- only for door locks.
-        canBreakIn = true,
-
-        -- The house image which will be displayed when someone goes to the main entrance for checking out if its available for sell.
-        backgroundImageUrl = 'property_29.png',
     },
     
     ['30'] = { -- <- THE NAME FOR THE PROPERTY TO BE SAVED AND LOADED FROM PROPERTIES DATABASE (INCLUDES INVENTORY CONTAINERS). DO NOT MODIFY IT AFTER CREATING A NEW HOUSE FOR NO REASON.
@@ -2646,14 +2417,6 @@ Config.Properties = {
 
         -- The max range for the property owners to be able to set Wardrobes, Storage and House Action locations.
         actionsRange = 15.0,
-
-        -- If players can use lockpicking to unlock the property doors.
-        -- (!) If @hasTeleportationEntrance is true, lockpicking won't be functional since it works
-        -- only for door locks.
-        canBreakIn = true,
-
-        -- The house image which will be displayed when someone goes to the main entrance for checking out if its available for sell.
-        backgroundImageUrl = 'property_30.png',
     },
 
     ['31'] = { -- <- THE NAME FOR THE PROPERTY TO BE SAVED AND LOADED FROM PROPERTIES DATABASE (INCLUDES INVENTORY CONTAINERS). DO NOT MODIFY IT AFTER CREATING A NEW HOUSE FOR NO REASON.
@@ -2719,15 +2482,6 @@ Config.Properties = {
 
         -- The max range for the property owners to be able to set Wardrobes, Storage and House Action locations.
         actionsRange = 10.0,
-
-
-        -- If players can use lockpicking to unlock the property doors.
-        -- (!) If @hasTeleportationEntrance is true, lockpicking won't be functional since it works
-        -- only for door locks.
-        canBreakIn = true,
-
-        -- The house image which will be displayed when someone goes to the main entrance for checking out if its available for sell.
-        backgroundImageUrl = 'property_31.png',
     },
 
     
@@ -2794,14 +2548,6 @@ Config.Properties = {
 
         -- The max range for the property owners to be able to set Wardrobes, Storage and House Action locations.
         actionsRange = 15.0,
-
-        -- If players can use lockpicking to unlock the property doors.
-        -- (!) If @hasTeleportationEntrance is true, lockpicking won't be functional since it works
-        -- only for door locks.
-        canBreakIn = true,
-
-        -- The house image which will be displayed when someone goes to the main entrance for checking out if its available for sell.
-        backgroundImageUrl = 'property_32.png',
     },
 
     --[[
@@ -2942,14 +2688,6 @@ Config.Properties = {
         -- The max range for the property owners to be able to set Wardrobes, Storage and House Action locations.
         actionsRange = 7.0,
 
-
-        -- If players can use lockpicking to unlock the property doors.
-        -- (!) If @hasTeleportationEntrance is true, lockpicking won't be functional since it works
-        -- only for door locks.
-        canBreakIn = true,
-
-        -- The house image which will be displayed when someone goes to the main entrance for checking out if its available for sell.
-        backgroundImageUrl = 'property_34.png',
     },
 
     ['35'] = { -- <- THE NAME FOR THE PROPERTY TO BE SAVED AND LOADED FROM PROPERTIES DATABASE (INCLUDES INVENTORY CONTAINERS). DO NOT MODIFY IT AFTER CREATING A NEW HOUSE FOR NO REASON.
@@ -3027,14 +2765,6 @@ Config.Properties = {
         -- The max range for the property owners to be able to set Wardrobes, Storage and House Action locations.
         actionsRange = 15.0,
 
-
-        -- If players can use lockpicking to unlock the property doors.
-        -- (!) If @hasTeleportationEntrance is true, lockpicking won't be functional since it works
-        -- only for door locks.
-        canBreakIn = true,
-
-        -- The house image which will be displayed when someone goes to the main entrance for checking out if its available for sell.
-        backgroundImageUrl = 'property_35.png',
     },
 
     ['36'] = { -- <- THE NAME FOR THE PROPERTY TO BE SAVED AND LOADED FROM PROPERTIES DATABASE (INCLUDES INVENTORY CONTAINERS). DO NOT MODIFY IT AFTER CREATING A NEW HOUSE FOR NO REASON.
@@ -3101,14 +2831,6 @@ Config.Properties = {
         -- The max range for the property owners to be able to set Wardrobes, Storage and House Action locations.
         actionsRange = 15.0,
 
-
-        -- If players can use lockpicking to unlock the property doors.
-        -- (!) If @hasTeleportationEntrance is true, lockpicking won't be functional since it works
-        -- only for door locks.
-        canBreakIn = true,
-
-        -- The house image which will be displayed when someone goes to the main entrance for checking out if its available for sell.
-        backgroundImageUrl = 'property_36.png',
     },
 
     ['37'] = { -- <- THE NAME FOR THE PROPERTY TO BE SAVED AND LOADED FROM PROPERTIES DATABASE (INCLUDES INVENTORY CONTAINERS). DO NOT MODIFY IT AFTER CREATING A NEW HOUSE FOR NO REASON.
@@ -3174,15 +2896,6 @@ Config.Properties = {
 
         -- The max range for the property owners to be able to set Wardrobes, Storage and House Action locations.
         actionsRange = 15.0,
-
-
-        -- If players can use lockpicking to unlock the property doors.
-        -- (!) If @hasTeleportationEntrance is true, lockpicking won't be functional since it works
-        -- only for door locks.
-        canBreakIn = true,
-
-        -- The house image which will be displayed when someone goes to the main entrance for checking out if its available for sell.
-        backgroundImageUrl = 'property_37.png',
     },
 
     ['38'] = { -- <- THE NAME FOR THE PROPERTY TO BE SAVED AND LOADED FROM PROPERTIES DATABASE (INCLUDES INVENTORY CONTAINERS). DO NOT MODIFY IT AFTER CREATING A NEW HOUSE FOR NO REASON.
@@ -3251,14 +2964,6 @@ Config.Properties = {
         -- The max range for the property owners to be able to set Wardrobes, Storage and House Action locations.
         actionsRange = 7.0,
 
-
-        -- If players can use lockpicking to unlock the property doors.
-        -- (!) If @hasTeleportationEntrance is true, lockpicking won't be functional since it works
-        -- only for door locks.
-        canBreakIn = true,
-
-        -- The house image which will be displayed when someone goes to the main entrance for checking out if its available for sell.
-        backgroundImageUrl = 'property_34.png',
     },
 
     ['39'] = { -- <- THE NAME FOR THE PROPERTY TO BE SAVED AND LOADED FROM PROPERTIES DATABASE (INCLUDES INVENTORY CONTAINERS). DO NOT MODIFY IT AFTER CREATING A NEW HOUSE FOR NO REASON.
@@ -3562,14 +3267,6 @@ Config.Properties = {
         -- The max range for the property owners to be able to set Wardrobes, Storage and House Action locations.
         actionsRange = 15.0,
 
-
-        -- If players can use lockpicking to unlock the property doors.
-        -- (!) If @hasTeleportationEntrance is true, lockpicking won't be functional since it works
-        -- only for door locks.
-        canBreakIn = true,
-
-        -- The house image which will be displayed when someone goes to the main entrance for checking out if its available for sell.
-        backgroundImageUrl = 'property_37.png',
     },
 }
 
