@@ -65,7 +65,7 @@ Config.TeleportOutsideOnJoin = { Enabled = true, ClosestDistance = 10.0 }
 Config.WardrobeEventTrigger = "tpz_clothing:openWardrobe"
 
 -- Set to false if you want the storage to be set as "private", only owner and the keyholders with permission access will be able to open the storage
--- and not other players (this destroys the whole point of lockpicking and robberies system).
+-- and not other players.
 Config.StorageAllowPublicAccess = false
 
 -- Options in the property management menu to display / not based on your personal and server preferences.
