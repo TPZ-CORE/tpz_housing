@@ -49,11 +49,3 @@
 - Properly saving all data before server restarts or every x minutes (fully configurable).
 
 - Discord Webhooking.
-
-`𝙸𝙼𝙿𝙾𝚁𝚃𝙰𝙽𝚃 𝙸𝙽𝙵𝙾𝚁𝙼𝙰𝚃𝙸𝙾𝙽:` 
-
-- We also support items as external method for currency methods, there are servers who do not use the API functions but items instead as "money".
-
-- Some of the property updates, such as property transfers, upgrades, ledger, etc. and many more, are not updated directly to the whole server in purpose, by updating to the whole server, it can cause many issues, crashes included, so we do update only the most important data, to avoid those kind of problems.
-
-- All the properties are created and configured through the configuration only, no in-game menu creator as others. Also, each property has its own configurations (cost, selling, storage capacity, rendering, etc), nothing is the same as other properties which makes it even better and accessible for new changes at anytime. 
