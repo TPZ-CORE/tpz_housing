@@ -16,7 +16,7 @@
 
 ## Description
 
-- We provide `36` house properties by default (with image backgrounds, door registrations and menu locations that have been already setup - plug & play).
+- We provide `39` house properties by default (with image backgrounds, door registrations and menu locations that have been already setup - plug & play).
 
 - Set in the configuration the maximum owned properties by player and the maximum keyholders of a property (we don’t want someone to share a house to the whole server).
 
