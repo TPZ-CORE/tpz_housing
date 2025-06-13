@@ -114,8 +114,6 @@ AddEventHandler("tpz_housing:server:removePropertyKeyholder", function(propertyI
 
   local property = Properties[propertyId]
 
-  Properties[propertyId].keyholders[characterId] = nil
-
   SendNotification(_source, string.format(Locales['MENU_KEYHOLDERS_REMOVED'], username), "error")
  
   -- DOOR LOCKS SUPPORT ONLY IF PROPERTY HAS NOT TELEPORTATION ENTRANCE
@@ -126,14 +124,20 @@ AddEventHandler("tpz_housing:server:removePropertyKeyholder", function(propertyI
   -- tpz_housing:server:updateDoorlockInformation is updating to -1 instead.
   TriggerClientEvent("tpz_housing:client:updateProperty", _source, propertyId, 'REMOVED_KEYHOLDER', { characterId })
 
+  if Properties[propertyId].keyholders[characterId].source then
+    TriggerClientEvent("tpz_housing:client:updateProperty", tonumber(Properties[propertyId].keyholders[characterId].source), propertyId, 'REMOVED_KEYHOLDER', { characterId })
+  end
+		
+  Properties[propertyId].keyholders[characterId] = nil
+
   -- UPDATE ON KEYHOLDERS -  CHANGES DOES NOT NEED TO BE UPDATED FOR THE WHOLE SERVER.
   if TPZ.GetTableLength(property.keyholders) > 0 then
 
     for index, keyholder in pairs (property.keyholders) do
 
       -- We are checking if the keyholder is online (has valid source)
-      if keyholder.source ~= nil and tonumber(keyholder.source) ~= 0 and GetPlayerName(tonumber(keyholder.source)) ~= nil and tonumber(keyholder.source) ~= _source then
-
+      if keyholder.source and tonumber(keyholder.source) and tonumber(keyholder.source) ~= _source then
+					
         TriggerClientEvent("tpz_housing:client:updateProperty", tonumber(keyholder.source), propertyId, 'REMOVED_KEYHOLDER', { characterId})
 
       end
@@ -183,7 +187,7 @@ AddEventHandler('tpz_housing:server:onMembersPermissionUpdate', function(propert
     for index, keyholder in pairs (Property.keyholders) do
 
       -- We are checking if the keyholder is online (has valid source)
-      if keyholder.source ~= nil and tonumber(keyholder.source) ~= 0 and GetPlayerName(tonumber(keyholder.source)) ~= nil and tonumber(keyholder.source) ~= _source then
+      if keyholder.source and tonumber(keyholder.source) and tonumber(keyholder.source) ~= _source then
 
         TriggerClientEvent("tpz_housing:client:updateProperty", tonumber(keyholder.source), propertyId, 'UPDATE_KEYHOLDER_PERMISSION', { 
           identifier, 
